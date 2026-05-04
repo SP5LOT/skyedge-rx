@@ -53,7 +53,11 @@ Tryb wykrywany jest automatycznie z nagłówka ramki — nadawca może zmieniać
 ### Pobranie
 Najnowszy build: **[Releases →](https://github.com/SP5LOT/skyedge-rx/releases/latest)**
 
-`skyedge_rx.exe` to pojedynczy plik wykonywalny — nie wymaga instalacji. Uruchom, wybierz wejście audio i czekaj na transmisję.
+Dwie wersje do wyboru:
+- 🟢 **`skyedge_rx_onedir.zip`** — *zalecane*. Rozpakuj ZIP, uruchom `skyedge_rx.exe` z folderu. Działa wszędzie, nie wymaga rozpakowywania w runtime, antywirus się nie uczepi.
+- 🟡 **`skyedge_rx.exe`** — pojedynczy plik. Kompaktowe, ale na niektórych komputerach AV może blokować start (`failed to import encodings module`). Jeśli zadziała — super, jeśli nie — pobierz ZIP.
+
+Nie wymaga instalacji ani Pythona — wszystko jest w środku.
 
 ### Wymagania
 - Windows 10 / 11 (x64)
@@ -94,7 +98,11 @@ The mode is auto-detected from the frame header — the transmitter can switch m
 ### Download
 Latest build: **[Releases →](https://github.com/SP5LOT/skyedge-rx/releases/latest)**
 
-`skyedge_rx.exe` is a single self-contained executable — no installation needed. Run it, pick an audio input, wait for the transmission.
+Two variants:
+- 🟢 **`skyedge_rx_onedir.zip`** — *recommended*. Extract the ZIP, run `skyedge_rx.exe` from the folder. Works everywhere, no runtime extraction, no antivirus conflicts.
+- 🟡 **`skyedge_rx.exe`** — single file. Compact, but on some machines AV may block the launch (`failed to import encodings module`). If it works — great, if not — grab the ZIP.
+
+No installation or Python required — everything is bundled.
 
 ### Requirements
 - Windows 10 / 11 (x64)
