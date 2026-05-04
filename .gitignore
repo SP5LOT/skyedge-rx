@@ -1,0 +1,9 @@
+*.exe
+*.bin
+*.wav
+*.dat
+build/
+dist/
+__pycache__/
+*.pyc
+.venv/
