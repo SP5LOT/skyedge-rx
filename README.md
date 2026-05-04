@@ -54,8 +54,8 @@ Tryb wykrywany jest automatycznie z nagłówka ramki — nadawca może zmieniać
 Najnowszy build: **[Releases →](https://github.com/SP5LOT/skyedge-rx/releases/latest)**
 
 Dwie wersje do wyboru:
-- 🟢 **`skyedge_rx_onedir.zip`** — *zalecane*. Rozpakuj ZIP, uruchom `skyedge_rx.exe` z folderu. Działa wszędzie, nie wymaga rozpakowywania w runtime, antywirus się nie uczepi.
-- 🟡 **`skyedge_rx.exe`** — pojedynczy plik. Kompaktowe, ale na niektórych komputerach AV może blokować start (`failed to import encodings module`). Jeśli zadziała — super, jeśli nie — pobierz ZIP.
+- 🟢 **`skyedge_rx_onedir.zip`** — *normalne użycie*. Rozpakuj ZIP, uruchom `skyedge_rx.exe` z folderu. Każdy crash zapisany do `crash.log` obok exe.
+- 🐞 **`skyedge_rx_debug.zip`** — *diagnostyka*. Identyczna funkcjonalność + okno konsoli z logami w czasie rzeczywistym. Użyj jeśli release pada bez wyjaśnienia.
 
 Nie wymaga instalacji ani Pythona — wszystko jest w środku.
 
@@ -99,8 +99,8 @@ The mode is auto-detected from the frame header — the transmitter can switch m
 Latest build: **[Releases →](https://github.com/SP5LOT/skyedge-rx/releases/latest)**
 
 Two variants:
-- 🟢 **`skyedge_rx_onedir.zip`** — *recommended*. Extract the ZIP, run `skyedge_rx.exe` from the folder. Works everywhere, no runtime extraction, no antivirus conflicts.
-- 🟡 **`skyedge_rx.exe`** — single file. Compact, but on some machines AV may block the launch (`failed to import encodings module`). If it works — great, if not — grab the ZIP.
+- 🟢 **`skyedge_rx_onedir.zip`** — *normal use*. Extract the ZIP, run `skyedge_rx.exe` from the folder. Any crash is logged to `crash.log` next to the exe.
+- 🐞 **`skyedge_rx_debug.zip`** — *diagnostics*. Same app + console window with live logs. Use this if the release crashes without explanation.
 
 No installation or Python required — everything is bundled.
 
